@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import hello from './../assets/imgH/Logo.png'
-import img01 from './../assets/imgH/img01.png'
+import Ellipse1 from './../assets/imgH/Ellipse 1.png'
 function MyPageA() {
   return (
     <>
@@ -29,17 +29,17 @@ function MyPageA() {
           </div>
         </div>
         {/* ส่วน 2 ข้อความ */}
-        <div className='flex-col text-white items-center text-center mt-20 text-4xl'>
+        <div className='flex-col text-white items-center text-center mt-20 mb-10 text-4xl'>
           <p className='mb-5'>Somrak Sudyodjing</p>
           <p className='text-[#01D5A2] mb-5'>Freelance Web Developer</p>
           <p>Based In THAILAND</p>
         </div>
         {/* ส่วน 3  */}
-        <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-green-400">
-          <img
-            src={img01}
+        <div className="rounded-full  border-2 border-green-400">
+          <img className="w-60 h-auto object-cover " 
+            src={Ellipse1}
             alt="Developer"
-            className="w-full h-auto object-cover" 
+           
           />
         </div>
 

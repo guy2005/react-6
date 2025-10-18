@@ -2,7 +2,8 @@ import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import imgb from './../assets/imgB/imgb.jpg';
+
+import Photo from './../assets/imgA/Photo here.png'
 import { FaAngleRight } from 'react-icons/fa';
 function MyPageB() {
   return (
@@ -48,7 +49,7 @@ function MyPageB() {
           </div>
           {/* รูป */}
             <div className='w-170 h-min mr-60 mt-15'>
-                <img src={imgb} alt="" />
+                <img src={Photo} alt="" />
             </div>
           
         </div>           
