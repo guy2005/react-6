@@ -49,7 +49,7 @@ function Home() {
             <Link to="/MyPageC">
               <img src={img3} alt="" className="w-47.5 h-min mr-10" />
             </Link>
-            <Link to="/MyPageHome">
+            <Link to="/MyPageD">
               <img src={img4} alt="" className="w-28.5 h-min mr-20" />
             </Link>
           </div>
