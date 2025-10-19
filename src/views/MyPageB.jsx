@@ -2,8 +2,8 @@ import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-
-import Photo from './../assets/imgA/Photo here.png'
+import Clients from './../assets/imgA/Clients_logos.png'
+import Photo from './../assets/imgA/Photo_here.png';
 import { FaAngleRight } from 'react-icons/fa';
 function MyPageB() {
   return (
@@ -40,19 +40,22 @@ function MyPageB() {
             <button style={{fontFamily: 'IBM Plex Mono'}} className='text-white w-75 h-15 mb-20 bg-[#3F8E00] rounded-md' >
               Let's get started <FaAngleRight className='inline-block'/>
             </button>
-            <p style={{fontFamily: 'IBM Plex Mono'}} className='text-white '>
-              Worked with
-            </p>
-            <div className='text-white'>
-              aaa
-            </div>
+            
+            
           </div>
           {/* รูป */}
             <div className='w-170 h-min mr-60 mt-15'>
                 <img src={Photo} alt="" />
             </div>
           
-        </div>           
+        </div>
+        <div className='flex flex-row mr-227'>
+          <p style={{fontFamily: 'IBM Plex Mono'}} className='text-white mb-5'>
+            Worked with
+          </p>
+          
+        </div>
+        <img className='w-257 h-min' src={Clients} alt="" />           
       </div>
     </>
   )

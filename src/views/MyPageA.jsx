@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import hello from './../assets/imgH/Logo.png'
-import Ellipse1 from './../assets/imgH/Ellipse 1.png'
+import Ellipse1 from './../assets/imgH/Ellipse_1.png'
 function MyPageA() {
   return (
     <>
